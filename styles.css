@@ -11,6 +11,13 @@
     font-size: 40px;
 }
 
+.descriptor {
+    text-align: center;
+    outline-width: 25px;
+    padding-top: 150px;
+    font-size: 50px;
+}
+
 .text {
     text-align: center;
     outline-width: 25px;
