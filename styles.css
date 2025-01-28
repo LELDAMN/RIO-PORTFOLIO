@@ -15,7 +15,9 @@
     text-align: center;
     outline-width: 25px;
     padding-top: 150px;
+    padding-bottom: 50px;
     font-size: 50px;
+    font-weight: bold;
 }
 
 .text {
