@@ -1,4 +1,7 @@
 ﻿<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
     <style>
         body {
@@ -12,19 +15,6 @@
             line-height: 0px;
         }
 
-        #Header {
-            text-align: center;
-            font-size: 75px;
-            outline-width: 50px;
-            outline-offset: 50px;
-        }
-
-        #Selection {
-            text-align: center;
-            outline-width: 25px;
-            font-size: 40px;
-        }
-
         #Descriptor {
             text-align: center;
             font-size: 50px;
@@ -35,55 +25,11 @@
         #Links {
             text-align: center;
         }
-
-        button {
-            background-color: transparent;
-            color: white;
-            font-size: 40px;
-            border: none;
-        }
-
-        .dropbtn {
-            background-color: transparent;
-            color: white;
-            padding: 16px;
-            font-size: 40px;
-            border: groove;
-            border-color: transparent;
-        }
-
-        .dropdown{
-            position: relative;
-            display: inline-block;
-        }
-
-        .dropdown-content{
-            display: none;
-            position: absolute;
-            background-color: transparent;
-            font-size: 20px;
-            line-height: 10px;
-            border: groove;
-            min-width: 175px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        }
-
-            .dropdown-content a {
-                color: black;
-                padding: 12px 16px;
-                text-decoration: none;
-                color: white;
-                display: block;
-            }
-
-        .dropdown-content a:hover {background-color:#ddd;}
-        .dropdown:hover .dropdown-content {display: block;}
-        .dropdown:hover .dropbtn {border-color: white;}
     </style>
 
-    <section id="Header"><h1> ▽ R | I | O ▽ </h1></section>
+    <section class="header"><h1> ▽ R | I | O ▽ </h1></section>
 
-    <section id="Selection">
+    <section class="selection">
         <h3>
             <button onclick="window.location.href = 'https://rioportfolio.github.io/RIO-PORTFOLIO';">Home</button>
             &nbsp;&nbsp;&nbsp;
