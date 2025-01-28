@@ -24,6 +24,16 @@
     text-align: center;
     outline-width: 25px;
     font-size: 25px;
+    line-height: 35px;
+}
+
+.background {
+    background-color: rgba(1, 1, 1, 0.75);
+    background-size: inherit;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-top: 15px;
+    padding-bottom: 15px
 }
 
 button {
