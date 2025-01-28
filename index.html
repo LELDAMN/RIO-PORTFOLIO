@@ -22,6 +22,7 @@
         #Selection {
             text-align: center;
             outline-width: 25px;
+            font-size: 40px;
         }
 
         #Descriptor {
@@ -38,9 +39,46 @@
         button {
             background-color: transparent;
             color: white;
+            font-size: 40px;
             border: none;
-            font-size: 25px;
         }
+
+        .dropbtn {
+            background-color: transparent;
+            color: white;
+            padding: 16px;
+            font-size: 40px;
+            border: groove;
+            border-color: transparent;
+        }
+
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color: transparent;
+            font-size: 20px;
+            line-height: 10px;
+            border: groove;
+            min-width: 175px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                color: white;
+                display: block;
+            }
+
+        .dropdown-content a:hover {background-color:#ddd;}
+        .dropdown:hover .dropdown-content {display: block;}
+        .dropdown:hover .dropbtn {border-color: white;}
     </style>
 
     <section id="Header"><h1> ▽ R | I | O ▽ </h1></section>
@@ -49,12 +87,27 @@
         <h3>
             <button onclick="window.location.href = 'https://rioportfolio.github.io/RIO-PORTFOLIO';">Home</button>
             &nbsp;&nbsp;&nbsp;
-            Portfolio
+            <div class="dropdown">
+                <button class="dropbtn">Portfolio</button>
+                <div class="dropdown-content">
+                    <a href="https://rioportfolio.github.io/RIO-PORTFOLIO/Portfolio/illustrations.html">Illustrations</a>
+                    <a href="https://rioportfolio.github.io/RIO-PORTFOLIO/Portfolio/concepts.html">Conecepts</a>
+                    <a href="https://rioportfolio.github.io/RIO-PORTFOLIO/Portfolio/modelsheets.html">Model Sheets</a>
+                    <a href="https://rioportfolio.github.io/RIO-PORTFOLIO/Portfolio/storyboards.html">Storyboards</a>
+                    <a href="https://rioportfolio.github.io/RIO-PORTFOLIO/Portfolio/studies.html">Studies</a>
+                </div>
+            </div>
             &nbsp;&nbsp;&nbsp;
-            About
+            <div class="dropdown">
+                <button class="dropbtn">About</button>
+                <div class="dropdown-content">
+                    <a href=""https://rioportfolio.github.io/RIO-PORTFOLIO/About/about.html">About Me</a>
+                    <a href="https://rioportfolio.github.io/RIO-PORTFOLIO/About/tos.html">TOS</a>
+                </div>
+            </div>
             &nbsp;&nbsp;&nbsp;
             <button onclick="window.location.href = 'https://rioportfolio.github.io/RIO-PORTFOLIO/contact.html';">Contact</button>
-</h3>
+        </h3>
     </section>
 
     <section id="Descriptor">
