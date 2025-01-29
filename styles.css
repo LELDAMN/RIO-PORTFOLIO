@@ -1,4 +1,6 @@
-﻿.header {
+﻿/* Formatting */
+
+.header {
     text-align: center;
     font-size: 75px;
     outline-width: 50px;
@@ -47,6 +49,8 @@ button {
     border: none;
     font-family: 'Palatino-SC ☞';
 }
+
+/* Dropdown */
 
 .dropbtn {
     background-color: transparent;
