@@ -5,6 +5,8 @@
     font-size: 75px;
     outline-width: 50px;
     outline-offset: 50px;
+    padding-top: 75px;
+    line-height: 0px;
     font-family:'Palatino-SC ☞';
 }
 
